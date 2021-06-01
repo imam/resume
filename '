@@ -1,0 +1,32 @@
+# Hello, My Name Imam Assidiqqi
+
+I'm a highly motivated self-taught software engineer since 2015.
+
+# My Workflow
+
+## How Do I Start A Project?
+
+For quick boilerplate, I currently use Next.js (React server-side), Auth0 for quick authentication, then use Vercel for deployment.
+
+If the requirement require a mobile app, I use React's Material UI with Capacitor.js (Framework that can simply use HTML, CSS, and Javascript to deploy a simple mobile app. Not the best choice for long term project, but a great one for scaffolding quick ideas)
+
+
+
+## My Editor
+
+I love to use Visual Studio Code with Remote Development that I connect to my private Vultr VPS. I too use NeoVim on my VPS occcasionally when the project scopes are small (you can check my bashrc on [https://gist.github.com/imam/83b28c67c7fdf8b387da706d9ed32994](https://gist.github.com/imam/83b28c67c7fdf8b387da706d9ed32994) ).
+
+### Why Do I Use Vultr VPS For Development?
+
+- Most of the time, their internet connection (far) exceed mine, really useful to scaffold any NPM projects or Laravel
+- Easy to share any progress to my client, mostly I use Apache that forward any subdomain request to an exposed port for said project.
+
+# Tech Stack
+
+## me.serverimam.xyz (This Site)
+
+Hugo
+
+
+
+ 

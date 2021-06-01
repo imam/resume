@@ -1,0 +1,42 @@
+title = "Software Engineer"
+baseURL = "https://example.com"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false          # enable KaTeX (https://katex.org/) globally
+googleAnalytics = ""  # add your tracking id
+
+[params]
+  author = "Imam Assidiqqi"
+  description = "Resume Imam Assidiqqi"
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "Imam Assidiqqi"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "Github"
+    url = "https://github.com/imam"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:assidiqqi.imam@gmail.com"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "Github"
+    url = "https://github.com/imam"
+    weight = 1
+  
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
