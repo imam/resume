@@ -2,7 +2,7 @@
 
 (NOTE: If you're reading this as a PDF resume, you can check more updated version on [https://me.serverimam.xyz](https://me.serverimam.xyz))
 
-I'm a highly motivated self-taught software engineer since 2015.
+I'm a highly motivated self-taught software engineer since 2015, live in Jakarta, Indonesia.
 
 # Careers
 
